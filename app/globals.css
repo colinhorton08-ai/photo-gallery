@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #0a0a0a;
+  color: #e5e5e5;
+}
+
+/* Masonry column break fix */
+.masonry-item {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
